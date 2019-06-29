@@ -1,3 +1,101 @@
-.logo{
-    height:100%;
+/*logo容器限高*/
+.logo_box{
+    width:165px;height:70px;
+}
+.m_top{
+    background-color: #242424;
+    width:100%;
+}
+.nav{
+    flex-wrap: nowrap;
+}
+.my_nav_width{
+    width:480px;
+    min-width:480px;
+}
+.nav-link{
+    color:#ccc;
+    height:70px;
+    width:80px;
+    padding:0px 10px;
+    line-height: 70px;
+    font-size: 14px;
+}
+.nav-link:hover,.nav_link:active{
+    color:#fff;
+    background: #000;
+}
+.hot{
+    font-size:12px;
+    width:28px;height:14px;
+    border-radius:7px;
+    background-color:#c20c0c;
+    color:#fff;
+    margin-top:25px;
+    line-height: 14px;
+    padding: 0px;
+    text-align: center;
+}
+.nav-link>.cor{
+    content:"";
+    display: none;
+    width:0;
+    border:6px solid transparent;
+    border-bottom:6px solid #c20c0c;
+    margin-top:-15px;
+    margin-left:34px;
+}
+.nav-link:active>.cor{
+    display: block;
+}
+.center_div{
+    width:1100px;
+    margin:0 auto;
+}
+.search{
+    width:158px;height:32px;
+    border-radius:16px;
+    background-color: #fff;
+    margin-top:19px;
+    margin-left:50px;
+    line-height: 32px;
+}
+.search>img{
+    border-radius:50%;
+    margin-left:5px;
+    margin-top:-6px;
+}
+.search>input{
+    border:none;
+    width:120px;height:12px;
+    outline: none;
+}
+.my_btn,.my_btn:hover{
+    display: block;
+    width:90px;height:32px;
+    text-decoration:none;
+    border:1px solid #555;
+    border-radius: 16px;
+    line-height: 32px;
+    margin-top:19px;
+    margin-left:10px;
+    text-align: center;
+    font-size:12px;
+    color:#ccc;
+}
+.rcor{
+    content: "";
+    display: block;
+    width: 0px;height:0px;
+    border:6px solid transparent;
+    border-top: 6px solid #666;
+    margin-left:10px;
+    margin-top: 5px;
+}
+.my_last,.my_last:hover{
+    margin-top:25px;
+    margin-left:20px;
+    color:#666;
+    font-size: 12px;
+    text-decoration: none;
 }

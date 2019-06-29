@@ -1,0 +1,33 @@
+.footer_parent{
+    background-color:#f2f2f2;
+    height:150px;
+}
+.footer{
+    width:980px;
+    margin:0px auto;
+    display: flex;
+    padding-top: 20px;
+}
+.footer_left>.mb-1>span{
+    color:#999;
+}
+.footer_left>.mb-1>a{
+    color:#999;
+    font-size: 12px;
+}
+.footer_left>.mb-1>span{
+    margin:0px 8px 0px 10px;
+}
+.font_small{
+    font-size: 12px;
+}
+a.font_small,span.font_small{
+    color:#666;
+}
+.footer_right{
+    margin-left:110px;
+    margin-top:-5px;
+}
+.footer_right img{
+    margin:0px 10px;
+}
