@@ -67,10 +67,10 @@
 }
 .search>input{
     border:none;
-    width:120px;height:12px;
+    width:120px;height:16px;
     outline: none;
 }
-.my_btn,.my_btn:hover{
+.my_btn{
     display: block;
     width:90px;height:32px;
     text-decoration:none;
@@ -82,6 +82,11 @@
     text-align: center;
     font-size:12px;
     color:#ccc;
+}
+.my_btn:hover{
+    text-decoration: none;
+    border:1px solid #aaa;
+    color:#eee;
 }
 .rcor{
     content: "";
@@ -98,4 +103,12 @@
     color:#666;
     font-size: 12px;
     text-decoration: none;
+}
+.font_small{
+    font-size:12px;
+}
+.red_bottom{
+    width:100%;
+    height:5px;
+    background:#c20c0c;
 }

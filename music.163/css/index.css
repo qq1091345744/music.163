@@ -1,0 +1,345 @@
+body{
+    background:#f5f5f5;
+    min-width: 986px;;
+}
+.font_small{
+    font-size:12px;
+    color:#333;
+}
+/*设置第一行按钮父级div的宽度以及居中*/
+.t1_1{
+    width:1100px;height:34px;
+    margin:0px auto;
+}
+/*设置第一行按钮祖父级div的背景色*/
+.t1{
+    height:34px;
+    background:#c20c0c;
+}
+/*调整第一行按钮左外边距*/
+.nav{
+    margin-left:176px;
+}
+/*第一行按钮的样式*/
+.nav-link{
+    display: block;
+    height:20px;
+    margin:6px 17px 0px 17px;
+    padding:0px 13px;
+    color:#fff;
+    font-size:12px;
+    line-height:20px;
+    background: transparent;
+    border-radius: 10px;
+}
+/*第一行按钮鼠标悬停时的样式*/
+.nav-link:hover{
+    background: #9b0909;
+    color:#fff;
+}
+
+
+/*主体内容----推荐*/
+
+
+/*轮播图部分*/
+/*轮播图背景div*/
+.carousel_background{
+    width:100%;height:336px;
+    background:#040404;
+}
+/*设置轮播图父级div宽度*/
+.carousel_parent{
+    width:986px;
+    margin:0 auto;
+    display: flex;
+}
+/*设置轮播图旁边div*/
+.carousel_img{
+    width:256px;
+    box-sizing: border-box;
+}
+/*设置轮播图左右箭头*/
+.carousel-control-prev,.carousel-control-next{
+    height:20%;width:4%;
+    top:40%;
+    background:rgba(0,0,0,.2);
+    border-radius:0.25rem;
+}
+.carousel-control-prev{
+    left:-30px;
+}
+.carousel-control-next{
+    right:-286px;
+}
+/*设置轮播指示器*/
+.carousel-indicators li{
+    width:7px;height:7px;
+    border-radius:50%;
+    background:#aaa;
+    margin: 0px 8px;
+}
+.carousel-indicators li:hover{
+      cursor: pointer;
+}
+.carousel-indicators li.active{
+    background:#f00;
+}
+
+
+/*轮播图下面主体内容部分*/
+.main{
+    width:986px;
+    margin:0px auto;
+    background:#fff;
+    display: flex;
+}
+/*左半主体*/
+.main_left{
+   padding:20px 20px 40px;
+   width:730px;
+}
+/*左半主体热门推荐*/
+.left_rmtj{
+    width:690px;
+    display:flex;
+}
+/*热门推荐-导航设置弹性布局*/
+.rmtj_dh{
+    display:flex;
+    width:690px;height:35px;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding-left:34px;
+    padding-right:10px;
+    border-bottom:3px solid #c20c0c;
+    position: relative;
+}
+/*圆圈图标*/
+.quan{
+    width:24px;height:22px;
+    margin-top:7px;
+    margin-left:-30px;
+    margin-right:6px;
+}
+/*热门推荐面包屑导航*/
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+    padding:0px;
+    margin:0px 15px;
+    font-size:12px;
+    color:#cccccc;
+}
+.breadcrumb{
+    padding:0px;
+    background:transparent;
+    margin-left:40px;
+    font-size:12px;
+}
+.breadcrumb a{
+    color:#666;
+}
+.dh_1,.dh_1:hover{
+    font-size:20px;
+    color:#333;
+    margin-top:-2px;
+    text-decoration: none;
+}
+
+/*更多选项*/
+.gd{
+    position: absolute;
+    right:0px;
+}
+
+/*热门推荐列表*/
+.rmtj_list{
+    width:690px;
+}
+.rmtj_list>ul{
+    margin:20px 0px 0px;
+    justify-content: space-between;
+    padding:0px;
+}
+.rmtj_list>ul>li{
+    width:141px;height: 234px;
+    list-style: none;
+    padding-bottom: 30px;
+}
+.rmtj_list img{
+    width:140px;
+    height:140px;
+    margin-bottom:8px;
+}
+.rmtj_list a{
+    font-size:14px;
+    color:#000;
+}
+
+/*新碟上架列表----效果做不出来截图暂代*/
+/*暂代图*/
+.zdt{
+    margin:20px 0px 50px;
+}
+
+/*榜单列表部分*/
+.bd_table table{
+    width:690px;
+    border:1px solid #ccc;
+    margin-top:20px;
+}
+.bd_table tr:nth-child(even){
+    background:#e8e8e8;
+}
+.bd_table tr:nth-child(odd){
+    background:#f4f4f4;
+}
+.bd_table td{
+    width:230px;
+    border:1px solid #ccc;
+    padding:5px 10px 7px 12px;
+}
+.bd_table span{
+    font-weight:bold;
+    font-size:16px ;
+    margin-right:15px;
+}
+.bd_table a{
+    color:#000;
+    font-size:12px;
+}
+.bd_table .top{
+    color:#f52;
+}
+.bd_table .bd_top{
+    padding:20px 0px 0px 20px;
+}
+a.bd_title{
+    font-size:14px !important;
+    font-weight:bold;
+    margin-left:8px;
+    color:#555;
+}
+.bd_table .bf{
+    margin-left:10px;
+    margin-top:5px;
+}
+.bd_table .sc{
+    margin-top:5px;
+    margin-left:7px;
+}
+
+
+
+
+
+/*右半主体*/
+/*右半主体登陆部分*/
+.main_right{
+    border:1px solid #999;
+}
+.login{
+    width:256px;height:126px;
+    background-image: linear-gradient(to bottom,#f2f2f2 0%,#ddd 100%);
+    border:1px solid #fff;
+    border-bottom:2px;
+    font-size:12px;
+}
+.login p{
+    margin:0 22.5px;
+    padding:16px 0px;
+    color:#666;
+}
+.login a{
+    display: block;
+    width:100px;height:31px;
+    margin:0 auto;
+    line-height:31px;
+    text-align: center;
+    background-image: linear-gradient(to bottom,#f44 0%,#d00 100%);
+    border-radius:3px;
+    text-decoration: none;
+    color:#fff;
+}
+.login a:hover{
+    background-image:linear-gradient(to top,#f44 0%,#d00 100%);
+}
+/*右半主体登陆下放分割线*/
+.main_right hr{
+    margin:0px;
+    height:1px;
+    background-color:#999;
+}
+/*右半主体入驻歌手部分*/
+.gs_dh{
+    display: flex;
+    justify-content: space-between;
+    font-size:12px;
+    margin:20px 20px 20px;
+    padding-bottom: 6px;
+    border-bottom:1px solid #bbb;
+}
+.gs_dh a{
+    color:#777;
+}
+.gs_list{
+    margin:6px 0px 14px 26px;
+}
+.gs_list li{
+    display:flex;
+    margin-top:15px;
+}
+.gs_list a{
+    color:#333;
+    text-decoration: none;
+}
+.gs_list li div{
+    width:148px;height:62px;
+    border:1px solid #ccc;
+    background:#fafafa;
+    padding:10px 0px 8px 14px;
+}
+.gs_list li div:hover{
+    background:#f3f3f3;
+}
+.gs_list h4{
+    font-size:14px;
+    font-weight: bold;
+}
+.gs_list p{
+    font-size:12px;
+    color:#999;
+}
+
+
+
+
+
+
+/*主体内容----歌单*/
+
+
+/*设置主体内容第一行为弹性布局,并定宽加内边距，以及横向居中*/
+/*.main{
+    display:flex;
+    width:980px;
+    padding:40px;
+    margin:0px auto;
+    flex-wrap: nowrap;
+}
+/*主体内容第一行的span字体颜色和大小*/
+/*.main_1 span{
+    color:#333;
+    font-size:24px;
+}
+/*主体内容第一行第一个按钮*/
+/*.main_1 .a1{
+    display:block;
+    width:86px;
+    height:31px;
+    border:1px solid #333;
+    border-radius:3px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom,#eee 0%,#ddd 100%);
+    line-height: 31px;
+}*/
