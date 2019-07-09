@@ -15,6 +15,7 @@ body{
 .t1{
     height:34px;
     background:#c20c0c;
+    margin-top:-6px;
 }
 /*调整第一行按钮左外边距*/
 .nav{
@@ -24,7 +25,7 @@ body{
 .nav-link{
     display: block;
     height:20px;
-    margin:6px 17px 0px 17px;
+    margin:6px 15px 0px 15px;
     padding:0px 13px;
     color:#fff;
     font-size:12px;
@@ -98,6 +99,8 @@ body{
 .main_left{
    padding:20px 20px 40px;
    width:730px;
+   border:1px solid #ddd;
+   border-bottom: none;
 }
 /*左半主体热门推荐*/
 .left_rmtj{
@@ -245,7 +248,9 @@ a.bd_title{
 /*右半主体*/
 /*右半主体登陆部分*/
 .main_right{
-    border:1px solid #999;
+    border:1px solid #ddd;
+    border-bottom:none;
+    border-left:none;
 }
 .login{
     width:256px;height:126px;

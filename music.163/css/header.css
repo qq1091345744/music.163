@@ -21,7 +21,7 @@
     line-height: 70px;
     font-size: 14px;
 }
-.nav-link:hover,.nav_link:active{
+.nav-link:hover{
     color:#fff;
     background: #000;
 }

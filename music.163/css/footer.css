@@ -1,6 +1,7 @@
 .footer_parent{
     background-color:#f2f2f2;
     height:150px;
+    border-top:2px solid #ddd;
 }
 .footer{
     width:980px;
