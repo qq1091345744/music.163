@@ -10,21 +10,34 @@
     border-radius:16px;
     background-color: #fff;
     margin-top:19px;
-    margin-left:50px;
-    line-height: 32px;
+    margin-left:300px;
+    line-height: 30px;
     border:1px solid #999;
 }
 .search>img{
     border-radius:50%;
     margin-left:5px;
-    margin-top:-6px;
+    margin-top:-5px;
 }
 .search>input{
     border:none;
     width:120px;height:16px;
     outline: none;
-    margin-top:-5px;
 }
 .font_small{
     font-size:12px;
+}
+.top_center>a>img{
+    margin-top:6px;
+    margin-left:20px;
+}
+.top_center>span{
+    font-size: 14px;
+    margin:25px 0 0 20px;
+}
+#cor{
+    display: block;
+    width:0px;
+    border:5px solid transparent;
+    border-bottom:7px solid #242424;
 }
