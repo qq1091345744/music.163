@@ -35,9 +35,14 @@
     font-size: 14px;
     margin:25px 0 0 20px;
 }
+.top_center>span>a{
+    color:#242424;
+}
 #cor{
     display: block;
     width:0px;
     border:5px solid transparent;
-    border-bottom:7px solid #242424;
+    border-top:7px solid #242424;
+    margin-left:45px;
+    margin-top: -13px;
 }
