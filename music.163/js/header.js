@@ -1,3 +1,4 @@
+(function(){
 var body=document.body;
 console.log(body)
 var nav=body.getElementsByClassName("nav");
@@ -26,6 +27,18 @@ for(var i=0;i<nav_link.length;i++){
         }
     })
 }
+})()
+    var par=document.getElementsByClassName("dlxl_parent")[0];
+    var dl=document.getElementsByClassName("my_last")[0];
+    var xl=document.getElementById("dlxl");
+        dl.onclick=function(){
+            if(xl.className=="hide"){
+                xl.className="";
+            }else{
+                xl.className="hide";
+            }
+        } 
+
 /*nav_link[0].onclick=function(){
     nav_link[0].style.background="#000";
     nav_link[1].style.background="#242424"
